@@ -27,12 +27,11 @@ This project explicitly follows the key requirements of the AFAC2025 Problem 1 t
 
 This repository implements end-to-end pipeline designed to satisfy these task requirements and to achieve competitive forecasting accuracy:
 1. AI Agent and Automated Pipeline
-This project is built around a lightweight auto/AI agent implemented in `fund_agent_service.py`.  
-The agent is responsible for automatically executing the full long-term subscription and redemption prediction workflow.
+   - This project is built around a lightweight auto/AI agent implemented in `fund_agent_service.py`.  The agent is responsible for automatically executing the full long-term subscription and redemption prediction workflow.
 
 2. How to run the agent (basic deployment)
-The simplest way to run the project is to start the agent directly from the command line:
-bash directly run:
+   - The simplest way to run the project is to start the agent directly from the command line:
+   - bash directly run:
 python fund_agent_service.py
 
 3. Publish results
