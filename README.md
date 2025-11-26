@@ -12,7 +12,6 @@ Goal in this project is to build a practical solution via auto/AI agent that:
 From the service provider perspective, accurate subscription/redemption forecasts can support liquidity management decisions, reducing capital costs caused by platform pre-funding; and reveal capital flows across sectors, enabling targeted early-warning and operational strategies to mitigate AUM loss. From the user/investor perspective, these forecasts help institutions and investors prepare trades and lock positions in advance; reduce return frictions and improve users’ perceived return experience when combined with investment research and intervention strategies. This repository focuses on the code and modeling solution.
 
 This project explicitly follows the key requirements of the AFAC2025 Problem 1 task:
-
 1. LLM-based feature engineering for financial signals
    - Financial features (e.g., product returns, market conditions, sector dynamics)  
      → must be constructed using large language models (e.g., Qwen3, Llama3, or similar open-source models).
@@ -26,19 +25,17 @@ This project explicitly follows the key requirements of the AFAC2025 Problem 1 t
      - Prediction accuracy of subscription/redemption volumes; and
      - Quality and depth of LLM usage for feature construction.
 
-This repository implements end-to-end pipeline designed to satisfy these task requirements and to achieve competitive forecasting accuracy.
-
-3. AI Agent and Automated Pipeline
-
+This repository implements end-to-end pipeline designed to satisfy these task requirements and to achieve competitive forecasting accuracy:
+1. AI Agent and Automated Pipeline
 This project is built around a lightweight auto/AI agent implemented in `fund_agent_service.py`.  
 The agent is responsible for automatically executing the full long-term subscription and redemption prediction workflow.
 
-5 How to run the agent (basic deployment)
+2. How to run the agent (basic deployment)
 The simplest way to run the project is to start the agent directly from the command line:
-```bash directly run
+bash directly run:
 python fund_agent_service.py
 
-4. Publish results
+3. Publish results
    - after model training, auto publish predict result and copy the result files from `tmp/result_pred/` back into the project-level `result_pred/` directory for easy access.
 
 
