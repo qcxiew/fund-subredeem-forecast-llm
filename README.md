@@ -1,15 +1,5 @@
 # fund-subredeem-forecast-llm
-1. Project Overview
-Long-term subscription and redemption prediction of fund products for AFAC2025 Problem Task, implemented in PyTorch with LLM-based financial feature engineering and an automated time-series forecasting pipeline.
-
 This repository contains code implementation and pipeline for the task: Long-term Subscription and Redemption Prediction of Fund Products.
-
-Goal in this project is to build a practical solution via auto/AI agent that:
-- Uses large language models (LLMs) to construct financial features, as required by the task;
-- Combines these features with classical and deep time-series models;
-- Produces competitive predictions of fund subscription and redemption volumes over a future horizon.
-
-From the service provider perspective, accurate subscription/redemption forecasts can support liquidity management decisions, reducing capital costs caused by platform pre-funding; and reveal capital flows across sectors, enabling targeted early-warning and operational strategies to mitigate AUM loss. From the user/investor perspective, these forecasts help institutions and investors prepare trades and lock positions in advance; reduce return frictions and improve users’ perceived return experience when combined with investment research and intervention strategies. This repository focuses on the code and modeling solution.
 
 This project explicitly follows the key requirements of the AFAC2025 Problem 1 task:
 1. LLM-based feature engineering for financial signals
@@ -36,6 +26,16 @@ python fund_agent_service.py
 
 3. Publish results
    - after model training, auto publish predict result and copy the result files from `tmp/result_pred/` back into the project-level `result_pred/` directory for easy access.
+
+
+Project Overview
+Long-term subscription and redemption prediction of fund products for AFAC2025 Problem Task, implemented in PyTorch with LLM-based financial feature engineering and an automated time-series forecasting pipeline.
+
+Goal in this project is to build a practical solution via auto/AI agent that:
+- Uses large language models (LLMs) to construct financial features, as required by the task;
+- Combines these features with classical and deep time-series models;
+- Produces competitive predictions of fund subscription and redemption volumes over a future horizon.
+From the service provider perspective, accurate subscription/redemption forecasts can support liquidity management decisions, reducing capital costs caused by platform pre-funding; and reveal capital flows across sectors, enabling targeted early-warning and operational strategies to mitigate AUM loss. From the user/investor perspective, these forecasts help institutions and investors prepare trades and lock positions in advance; reduce return frictions and improve users’ perceived return experience when combined with investment research and intervention strategies. This repository focuses on the code and modeling solution.
 
 
 
