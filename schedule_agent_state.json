@@ -1,0 +1,12 @@
+{
+  "last_run_time": "2025-11-20T08:00:27.740988",
+  "runs_today": 1,
+  "runs_today_date": "2025-11-20",
+  "last_data_date": "20250724",
+  "slots": {
+    "morning": {
+      "n": 1.0,
+      "mean_reward": 0.9302140819444444
+    }
+  }
+}

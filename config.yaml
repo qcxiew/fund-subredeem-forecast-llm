@@ -1,0 +1,14 @@
+
+# config.yaml
+# If finetune=true, then continue training on the existing checkpoint; otherwise, start training from scratch.
+finetune: true
+
+# Learning rate and number of rounds used only during fine-tuning
+lr_finetune: 5e-4
+epochs_finetune: 5
+
+# The learning rate and number of epochs used during retraining (rather than fine-tuning).  # epoch 100
+lr_retrain: 1e-3
+epochs_retrain: 6
+
+

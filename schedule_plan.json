@@ -1,0 +1,23 @@
+{
+  "min_interval_minutes": 240,
+  "max_runs_per_day": 2,
+  "warmup_runs": 3,
+  "explore_prob_bad": 0.2,
+  "slots": [
+    {
+      "name": "morning",
+      "time": "08:00",
+      "enabled": true
+    },
+    {
+      "name": "noon",
+      "time": "12:00",
+      "enabled": false
+    },
+    {
+      "name": "close",
+      "time": "16:00",
+      "enabled": true
+    }
+  ]
+}
