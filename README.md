@@ -1,5 +1,5 @@
 # fund-subredeem-forecast-llm
-This repository contains code implementation in PyTorch with LLM-based financial feature engineering and an automated time-series forecasting auto/ai agent pipeline, for the task: Long-term Subscription and Redemption Prediction of Fund Products.
+This repository contains code implementation in PyTorch with LLM-based financial feature engineering and an automated time-series forecasting auto/AI agent pipeline, for the task: Long-term Subscription and Redemption Prediction of Fund Products.
 
 - This project explicitly follows the key requirements of the AFAC2025 Problem 1 task:
    1. LLM-based feature engineering for financial signals
@@ -16,7 +16,7 @@ This repository contains code implementation in PyTorch with LLM-based financial
         - Quality and depth of LLM usage for feature construction.
 
 - This repository implements end-to-end pipeline designed to satisfy these task requirements and to achieve competitive forecasting accuracy:
-   1. AI Agent and Automated Pipeline
+   1. auto/AI Agent and Automated Pipeline
       - This project is built around a lightweight auto/AI agent implemented in `fund_agent_service.py`.  The agent is responsible for automatically executing the full long-term subscription and redemption prediction workflow.
    
    2. How to run the agent (basic deployment)
