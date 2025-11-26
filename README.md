@@ -21,7 +21,7 @@ This repository contains code implementation in PyTorch with LLM-based financial
    
    2. How to run the agent (basic deployment)
       - The simplest way to run the project is to start the agent directly from the command line:
-      - bash directly run:
+        bash directly run:
         ```bash
          python fund_agent_service.py
    
