@@ -1,7 +1,7 @@
 # fund-subredeem-forecast-llm
 This repository contains code implementation in PyTorch with LLM-based financial feature engineering and an automated time-series forecasting auto/AI agent pipeline, for the task: Long-term Subscription and Redemption Prediction of Fund Products. This project builds an end-to-end pipeline that uses LLM-based financial features and a deep time-series model to forecast long-term fund subscription and redemption volumes.
 
-- This project explicitly follows the key requirements of the AFAC2025 Problem 1 task:
+- This project explicitly follows the key requirements of the AFAC2025 Problem 1 task (https://tianchi.aliyun.com/competition/entrance/532352/information):
    1. LLM-based feature engineering for financial signals
       - Financial features (e.g., product returns, market conditions, sector dynamics)  
         → must be constructed using large language models (e.g., Qwen3, Llama3, or similar open-source models).
