@@ -39,8 +39,8 @@ This repository contains code implementation in PyTorch with LLM-based financial
   Key Components and Their Roles
    - LLM (LLM-Embedding). The LLM is used purely as a feature encoder, turning fund profile text and news articles into dense semantic embeddings that describe each fund’s characteristics and current context.
    - Time-series model (BiLSTM + N-BEATS). The time-series model takes historical numerical series plus LLM embeddings and time features as input and outputs multi-step forecasts of future subscription and redemption volumes.
-   - s2_feature_extraction.py. This script reads fund static information and uses Qwen3 embeddings to generate a fixed semantic vector for each fund, saving them as fund_static_embs.pkl.
-   - s3_vectorstore_build.py. This script converts fund news (title + content) into embeddings with Qwen3 and stores them, along with metadata, in a persistent Chroma vectorstore (news_chroma_db).
+   - s2_feature_extraction.py. This script reads fund static information and uses Qwen3 embeddings to generate a fixed semantic vector for each fund.
+   - s3_vectorstore_build.py. This script converts fund news (title + content) into embeddings with Qwen3 and stores them, along with metadata, in a persistent Chroma vectorstore.
    - s4_train_model_mm.py. This script builds the multi-modal time-series dataset, trains the BiLSTM + N-BEATS forecasting model with WMAPE loss, and saves the best model checkpoint for inference.
    - s6_eval_predict.py. This script loads prediction result files, computes WMAPE-based evaluation metrics, and ranks different runs to compare forecasting performance.
      
