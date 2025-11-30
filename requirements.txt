@@ -1,0 +1,9 @@
+yaml
+langchain==0.3.19
+numpy==1.26.4
+pandas==2.2.2
+requests==2.32.3
+schedule==1.2.2
+torch==2.5.0+cu121
+tqdm==4.66.5
+transformers==4.53.3
