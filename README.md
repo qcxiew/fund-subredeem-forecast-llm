@@ -18,6 +18,7 @@ This repository contains code implementation in PyTorch with LLM-based financial
 - This repository implements end-to-end pipeline designed to satisfy these task requirements and to achieve competitive forecasting accuracy:
    1. auto/AI Agent and Automated Pipeline
       - This project is built around a lightweight auto/AI agent implemented in `fund_agent_service.py`.  The agent is responsible for automatically executing the full long-term subscription and redemption prediction workflow.
+      - Install the required packages/dependencies: pip install -r requirements.txt
    
    2. How to run the agent (basic deployment)
       - The simplest way to run the project is to start the agent directly from the command line:
