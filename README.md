@@ -21,12 +21,13 @@ This repository contains code implementation in PyTorch with LLM-based financial
       - Install the required packages/dependencies: $ pip install -r requirements.txt
    
    2. How to run the agent (basic deployment)
+      - Setup your model path in the files: ' MODEL_NAME   = "/home/PathToModelFolder" '
       - The simplest way to run the project is to start the agent directly from the command line:
         bash directly run:
         ```bash
          python fund_agent_service.py
    
-   3. Publish results
+   4. Publish results
       - after model training, auto publish predict result and copy the result files from `tmp/result_pred/` back into the project-level `result_pred/` directory for easy access.
 
 - Project Overview
