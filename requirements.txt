@@ -1,5 +1,4 @@
 yaml
-langchain==0.3.19
 numpy==1.26.4
 pandas==2.2.2
 requests==2.32.3
@@ -8,3 +7,6 @@ torch==2.5.0+cu121
 tqdm==4.66.5
 transformers==4.53.3
 beautifulsoup4
+langchain==0.3.26
+langchain-community==0.3.18
+chromadb==1.0.15
