@@ -144,10 +144,7 @@ def retry_step(name, fn, verify_fn=None, retry_interval=5, max_retries=2):
                 logging.error(
                     f"✗ Step '{name}' reached max_retries={max_retries}, give up."
                 )
-                # 这里有两种策略：
-                # 1) raise 让整个 pipeline 终止；
-                # 2) return 把这个 step 当作失败但继续后续逻辑。
-                #raise  # 如果你希望整个 run_pipeline 直接失败，可以保留这一行
+
                 break
 
             logging.info(f"Retry after {retry_interval}s …")
